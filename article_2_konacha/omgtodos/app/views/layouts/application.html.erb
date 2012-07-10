@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OMG Todos!</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag controller_name %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+
+<div class="container">
+  <div class='hero-unit'>
+    <h1>OMG Todos!</h1>
+  </div>
+  <%= render "shared/flash", flash: flash %>
+  <div class='main'><%= yield %></div>
+</div>
+
+</body>
+</html>

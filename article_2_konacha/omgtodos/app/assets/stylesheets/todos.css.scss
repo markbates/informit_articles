@@ -1,0 +1,15 @@
+// Place all the styles related to the todos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#todos {
+  li {
+    padding: 10px;
+  }
+  li:nth-child(even) {
+    background-color: #e6e6e6;
+  }
+  .completed {
+    text-decoration: line-through;
+    color: #b3b3b3;
+  }
+}

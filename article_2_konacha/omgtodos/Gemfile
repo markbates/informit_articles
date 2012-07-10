@@ -1,0 +1,35 @@
+source 'https://rubygems.org'
+
+gem 'rails', '3.2.2'
+
+gem 'pg'
+
+group :assets do
+  gem 'sass-rails',   '~> 3.2.3'
+  gem 'coffee-rails', '~> 3.2.1'
+  gem 'uglifier', '>= 1.0.3'
+end
+
+gem 'jquery-rails'
+gem 'bootstrap-sass', '~> 2.0.1'
+gem "eco"
+gem "js-routes"
+gem 'backbone-on-rails'
+
+group :development, :test do
+  gem 'mark_facets'
+  gem 'thin'
+  gem "progress_bar"
+  gem 'foreman'
+  gem 'syntax'
+  gem "pry"
+  gem 'factory_girl_rails'
+  gem 'timecop'
+  gem "vcr"
+  gem 'fakeweb'
+  gem 'database_cleaner'
+  gem 'cover_me', require: false
+  gem "rspec-rails", '>= 2.8.0'
+  gem 'konacha'
+  gem 'poltergeist'
+end

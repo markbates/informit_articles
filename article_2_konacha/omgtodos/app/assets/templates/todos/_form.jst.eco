@@ -1,0 +1,13 @@
+<fieldset>
+  <legend>Create a new Todo</legend>
+  <div class='control-group'>
+    <label for='todo_body' class='control-label'>Description</label>
+    <div class='controls'>
+      <input type='text' class='input-xlarge span10' id='todo_body' name='body'/>
+    </div>
+  </div>
+  <div class='form-actions'>
+    <button class='btn btn-primary save'>Save</button>
+    <button class='btn cancel'>Cancel</button>
+  </div>
+</fieldset>

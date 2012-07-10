@@ -1,0 +1,5 @@
+@OMG =
+  Models: {}
+  Collections: {}
+  Views: {}
+ 

@@ -1,0 +1,7 @@
+<div id='flash_messages'>
+  <% if flash.any? %>
+    <script>
+      <%= set_js_flash_messages(flash) %>
+    </script>
+  <% end %>
+</div>
